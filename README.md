@@ -93,15 +93,6 @@ Master 1개와 주소가 다른 Slave 2개(`7'h10`, `7'h20`)를 같은 `SCL` · 
 </p>
 
 ## 검증 환경
-
-```text
-Sequence → Sequencer → Driver → Interface → SPI / I²C DUT
-                                              │
-                                           Monitor
-                                     ┌────────┴────────┐
-                                Scoreboard     Functional Coverage
-```
-
 <p align="center">
   <img src="docs/uvm_structure.png" alt="UVM Testbench Structure" width="640">
 </p>
